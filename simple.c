@@ -1,6 +1,9 @@
 #include<stdio.h>
 
 int main(){
-	print("Blah blah");
+	int number;
+	printf("enter an integer:");
+	scanf("%d",&number);
+	printf("the number you entered is:%d",number);
 	return 0;
 }
